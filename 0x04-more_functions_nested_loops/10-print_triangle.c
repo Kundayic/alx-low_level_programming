@@ -2,8 +2,8 @@
 
 /**
  * print_triangle - create triangle
- *  @size: params
- *  Return: 0
+ * @size: params
+ * Return: 0
  */
 
 void print_triangle(int size)
@@ -26,5 +26,5 @@ void print_triangle(int size)
 		}
 	}
 	else
-		putchar('\n');
+		_putchar('\n');
 }
