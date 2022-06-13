@@ -2,8 +2,8 @@
 
 /**
  * _atoi - converts a string to an integer.
- * @s: params
- *  Return: something
+ *  @s: params
+ *   Return: something
  */
 int _atoi(char *s)
 {
@@ -13,7 +13,7 @@ int _atoi(char *s)
 	{
 		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
-	
+
 		if (*(s + count) == '-')
 			k *= -1;
 
